@@ -1,0 +1,11 @@
+[git_status]
+ahead = "⇡${count}"
+behind = "⇣${count}"
+diverged = "⇕⇡${ahead_count}⇣${behind_count}"
+conflicted = "=${count}"
+deleted = "✘${count}"
+modified = "!${count}"
+renamed = "»${count}"
+staged = "+${count}"
+untracked = "?${count}"
+stashed = "*${count}"
